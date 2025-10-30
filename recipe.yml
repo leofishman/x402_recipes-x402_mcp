@@ -1,0 +1,7 @@
+name: 'x402 Drupal MCP Server'
+description: 'A starting point for a basic MCP Server that accept x402 Solana Micropayments.'
+type: 'recipe'
+core_version_requirement: '^10 || ^11'
+# List modules to install when this recipe is applied
+install:
+  - x402_solana_core
